@@ -1,29 +1,49 @@
-h1{
+@font-face {
+    font-family: days;
+    src: url("./28\ Days\ Later.ttf");
+}
+.background{
+    background-color:rgb(171, 175, 175)
+}
+.logo{
     size: 50px;
     text-align: center;
     margin: auto;
 }
 .logo{
-    width: 300px;
-    height: 300px;
+    width: 500px;
+    height: 500px;
     padding: 1%;
 }
 .pic{
     text-align: center;
     margin: auto;
 }
-h2{
+.goals{
+    font-family: Days;
     text-align: center;
     margin: auto;
-    font-size:25px
+    font-size:43px
 }
 .pic2{
-    width: 170px;
-    height: 170px;
+    width: 380px;
+    height: 380px;
     text-align: center;
     margin: auto;
+    padding: 3%;
+    background-color: black;
+    margin-bottom: 5%;
 }
 .reg{
     text-align: center;
     margin: auto;
+    font-size: 25px;
+}
+.discrip{
+    margin-top: -5%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 7%;
+    font-size: 23px;
+    
 }
